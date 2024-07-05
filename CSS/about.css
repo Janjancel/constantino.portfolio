@@ -5,7 +5,6 @@
     padding: 20px;
 }
 #about-top {
-    /* background-color: yellowgreen; */
     height: 15vh;
 }
 #about-top h2 {
@@ -142,25 +141,8 @@
     }
   }
 
-/* #about-left {
-    width: 50%;
-    height: 100%;
-    background-color: red;
-}
-#about-left h3 {
-    text-transform: capitalize;
-}
-
-#about-right {
-    width: 50%;
-    height: 100%;
-    background-color: rgb(11, 9, 7);
-} */
-/* 
-#img-container img {
-    margin-top: 15px;
-    position: relative;
-    border-radius: 50%;
-    width: 300px;
-    height: 100%;
-} */
+  @media (max-width: 300px) {
+    #about {
+      height: 165vh;
+    }
+  }
