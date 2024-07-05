@@ -130,9 +130,12 @@
     #about {
         height: 110vh;
     }
+        .card-title {
+      font-size: x-small;
+    }
   }
 
-  @media (max-width: 450px) {
+/*   @media (max-width: 450px) {
     #about {
         height: 140vh;
     }
@@ -145,4 +148,4 @@
     #about {
       height: 165vh;
     }
-  }
+  } */
