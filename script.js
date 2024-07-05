@@ -23,3 +23,10 @@ window.addEventListener('scroll', () => {
 });
 
 
+
+function sendMessage(to, subject, body) {
+  const mailtoLink = `mailto:${to}?subject=${subject}&body=${body}`;
+  const a = document.createElement('a');
+  a.href = mailtoLink;
+  a.click();
+}
